@@ -14,16 +14,17 @@
         <div v-for="(video, index) in videos" :key="index"
           class="relative overflow-hidden rounded-lg group cursor-pointer">
           <video
-            class="w-full lg:w-[300px] object-cover h-[320px] scale-100 ease-in duration-300 group-hover:scale-125 rounded-md z-10"
+            class="w-[375px] md:w-[300px] object-cover h-[320px] m-auto scale-100 ease-in duration-300 group-hover:scale-125 rounded-md z-10"
             :autoplay="false" :muted="true" :loop="true" :controls="false" :playsInline="true" poster=""
             @click="showVideoDetail(video, $event)" @mouseover="toggleVideo($event)" @mouseout="toggleVideo($event)">
             <source :src="video?.url" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           <div
-            class="absolute inset-0 grid items-end justify-center bg-gradient-to-b from-transparent to-black/10 pointer-events-none dark:to-white/20">
+            class="w-[375px] md:w-[300px] m-auto absolute inset-0 grid items-end justify-center bg-gradient-to-b from-transparent to-black/10 pointer-events-none dark:to-white/20 scale-100 ease-in duration-300 group-hover:scale-125">
             <div class="space-y-0.5 font-medium text-sm text-gray-200 bg-gray-900/80 h-full hidden group-hover:flex">
-              <div class="flex flex-col justify-between p-4 w-[300px] h-[320px]">
+            <!-- <div class="space-y-0.5 font-medium text-sm text-gray-200 bg-gray-900/80 h-full group-hover:flex"> -->
+              <div class="flex flex-col justify-between p-4 h-[320px] w-[376px] md:w-[302px] scale-100 ease-in duration-300 group-hover:scale-75">
                 <div v-if="video.author.toLowerCase() === 'openai'" class="w-full flex justify-center">
                   <Icon name="simple-icons:openai" class="w-5 h-5 mr-1" />
                   <div>{{ video.author }}</div>
@@ -33,7 +34,7 @@
                     :src="video.author_img ? video.author_img : '/profile.jpg'" />
                   <div>{{ video.author }}</div>
                 </div>
-                <div v-if="video.prompt.length <= 200" class="mb-2">{{ video.prompt }}</div>
+                <div v-if="video.prompt.length <= 200" class="mb-2 w-full">{{ video.prompt }}</div>
                 <div v-else class="mb-2">{{ video.prompt.slice(0, 200) }}...</div>
               </div>
             </div>
