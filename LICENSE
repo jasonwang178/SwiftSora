@@ -1,0 +1,58 @@
+# SwiftSora Open Source License
+
+The SwiftSora is licensed under the Apache License 2.0, with the following additional conditions:
+
+1. SwiftSora is permitted to be used for commercialization. You can use SwiftSora as a "backend-as-a-service" for your other applications, or delivering it to enterprises as an application development platform. However, when the following conditions are met, you must contact the producer to obtain a commercial license:
+
+a. Multi-tenant SaaS service: Unless explicitly authorized by SwiftSora in writing, you may not use the SwiftSora.AI source code to operate a multi-tenant SaaS service that is similar to the SwiftSora.
+b. LOGO and copyright information: In the process of using SwiftSora, you may not remove or moSwiftSora the LOGO or copyright information in the SwiftSora console.
+
+Please contact jasonwang188@gmail.com by email to inquire about licensing matters.
+
+2. As a contributor, you should agree that your contributed code:
+
+a. The producer can adjust the open-source agreement to be more strict or relaxed.
+b. Can be used for commercial purposes, such as SwiftSora's cloud business.
+
+Apart from this, all other rights and restrictions follow the Apache License 2.0. If you need more detailed information, you can refer to the full version of Apache License 2.0.
+
+The interactive design of this product is protected by appearance patent.
+
+© 2024 SwiftSora.
+
+
+The SwiftSora software is licensed under the Apache License 2.0, with additional conditions outlined below:
+
+1. **Commercial Usage:** SwiftSora is allowed for commercialization purposes. It can serve as a "fullstack-service" or "backend-as-a-service" for your applications or be provided to enterprises as an application development platform. However, under specific conditions, you must contact the producer for a commercial license:
+
+   a. **Multi-tenant SaaS Service:** Without explicit written authorization from SwiftSora, you may not utilize the SwiftSora.AI source code to operate a multi-tenant SaaS service similar to SwiftSora.
+   
+   b. **LOGO and Copyright Information:** While using SwiftSora, you must not remove or modify the LOGO or copyright information in the SwiftSora console.
+
+   For licensing inquiries, please contact jasonwang188@gmail.com via email.
+
+2. **Contributor Agreement:** Contributors must agree that their contributed code:
+
+   a. **Adjustment of Open-Source Agreement:** The producer has the authority to modify the open-source agreement to be more stringent or lenient.
+   
+   b. **Commercial Usage:** The contributed code can be used for commercial purposes, including SwiftSora's cloud business.
+
+   All other rights and restrictions align with the Apache License 2.0. For more detailed information, refer to the full version of Apache License 2.0.
+
+The interactive design of this product is protected by an appearance patent.
+
+© 2024 SwiftSora.
+
+---
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.

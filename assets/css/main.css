@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 300;
+  font-display: swap;
+  src: url(/fonts/PlusJakartaSans-Light.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts/PlusJakartaSans-Regular.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts/PlusJakartaSans-Medium.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 600;
+  font-display: swap;
+  src: url(/fonts/PlusJakartaSans-SemiBold.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts/PlusJakartaSans-Bold.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 800;
+  font-display: swap;
+  src: url(/fonts/PlusJakartaSans-ExtraBold.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+  src: url(/fonts/PlusJakartaSans-LightItalic.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: url(/fonts/PlusJakartaSans-Italic.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+  src: url(/fonts/PlusJakartaSans-MediumItalic.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+  src: url(/fonts/PlusJakartaSans-SemiBoldItalic.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+  src: url(/fonts/PlusJakartaSans-BoldItalic.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+  src: url(/fonts/PlusJakartaSans-ExtraBoldItalic.woff2) format('woff2');
+}
+
+.rad-color-1 {
+  /* Fallback color */
+  background-color: #7857ff;
+
+  background-image: linear-gradient(81.02deg, #fa5560 -23.47%, #b14bf4 45.52%);
+
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+.rad-color-2 {
+  /* Fallback color */
+  background-color: #7857ff;
+
+  background: linear-gradient(81.02deg, #b14bf4 -39.48%, #4d91ff 130.8%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -moz-background-clip: text;
+  text-fill-color: transparent;
+}
+
+.rad-color-full {
+  /* Fallback color */
+  background-color: #7857ff;
+
+  background-image: linear-gradient(81.02deg, #fa5560 -23.47%, #b14bf4 45.52%, #4d91ff 114.8%);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.h1-home {
+  font-weight: 600;
+  font-size: clamp(1.5625rem, 0.2717rem + 5.163vw, 2.75rem);
+}
+
+.tab_bg {
+  background: radial-gradient(80.23% 80.23% at 50% 88.37%, rgba(255, 255, 255, 0.82) 0%, rgba(255, 255, 255, 0.22) 0.01%, rgba(255, 255, 255, 0) 100%);
+}
