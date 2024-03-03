@@ -5,7 +5,8 @@
 <script setup lang="ts">
 
 definePageMeta({
-  layout: 'application'
+  layout: 'application',
+  layoutTransition: true,
 })
 
 const title = ref(['Personal ', 'Feed'])
