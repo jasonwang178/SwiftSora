@@ -4,30 +4,30 @@ Get started with the leading open-source video generator, which is built with th
 
 ## Deployment
 
-### Configuration
-
 * `server/routes/fakeOpenAISoraAPI.post.ts` - This is a fake OpenAI Sora API. Please deactivate this API when the official Sora API becomes accessible.
 * `server/routes/v1/[...].ts` - This is an OpenAI API proxy aims to protect your API key in case of
 
-Change the OPENAI_API_PROXY_URL to YOUR_DEPLOYED_URL.
+### Configuration
 
-For example if you deployed the project to <https://swiftsora.vercel.app> then change the OPENAI_API_PROXY_URL to <https://swiftsora.vercel.app>.
+Update the `.env` file:
+
+* Replace the value of `OPENAI_API_PROXY_URL` with your deployed URL. For instance, if you have deployed the project to <https://swiftsora.vercel.app>, update the `OPENAI_API_PROXY_URL` to <https://swiftsora.vercel.app>.
+* Adjust the `OPENAI_API_BASE_URL` to your deployed URL temporarily. Once the OpenAI Sora API becomes available, update it to `https://api.openai.com` or any other OpenAI proxy URL.
 
 ### Vercel
 
-Recommended deployment is with Vercel. But you can deploy it anywhere you want.
+The preferred deployment option is Vercel, although you have the flexibility to deploy it on any platform of your choice.
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/jasonwang178/SwiftSora)
 
 ### Netlify
 
-You can also deploy it with Netlify.
+You can also deploy it using Netlify.
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/jasonwang178/SwiftSora)
 
 > [!NOTE]
-> This project is an experimental one. While it has been optimized, caution is still advised, and any consequences of use are at your own risk!
-
+> This project is experimental. Although it has undergone optimization, caution is still advised. Use it at your own risk, and be aware of any potential consequences.
 
 ## Introduction
 
