@@ -63,7 +63,6 @@ const subTitle = ref(null)
 
 useHead({
   title: 'Home - App - SwiftSora',
-  meta: [{ name: 'description', content: "SwiftSora is an open-source project that enables users to generate videos from prompt text online. The project utilizes OpenAI's Sora model to streamline video creation and includes a straightforward one-click website deployment feature." }],
   bodyAttrs: {
     class: 'bg-white dark:bg-gray-900',
   },
