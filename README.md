@@ -5,7 +5,7 @@ Get started with the leading open-source video generator, which is built with th
 ## Deployment
 
 * `server/routes/fakeOpenAISoraAPI.post.ts` - This is a fake OpenAI Sora API. Please deactivate this API when the official Sora API becomes accessible.
-* `server/routes/v1/[...].ts` - This is an OpenAI API proxy aims to protect your API key in case of
+* `server/routes/v1/[...].ts` - This is an OpenAI API proxy. This measure aims to prevent the inadvertent exposure or risk control by OpenAI of your API key.
 
 ### Configuration
 
@@ -173,3 +173,7 @@ If you find this project enjoyable and genuinely helpful, kindly consider suppor
 
 <img src="public/alipay.jpg" alt="Alipay 支付宝" width="35%" height="35%">
 
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=jasonwang178/SwiftSora&type=Date)](https://star-history.com/#jasonwang178/SwiftSora&Date)
