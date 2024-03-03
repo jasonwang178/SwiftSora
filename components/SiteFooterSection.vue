@@ -55,7 +55,7 @@
           <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">LEGAL</h2>
           <ul class="text-gray-500 dark:text-gray-400">
             <li class="mb-4">
-              <NuxtLink to="/" class="hover:underline">License (Apache 2.0)</NuxtLink>
+              <NuxtLink to="https://github.com/jasonwang178/SwiftSora?tab=License-1-ov-file#readme" class="hover:underline">License (Apache 2.0)</NuxtLink>
             </li>
              <li class="mb-4">
               <NuxtLink to="/" class="hover:underline">DMCA</NuxtLink>
