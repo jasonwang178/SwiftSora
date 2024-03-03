@@ -36,12 +36,12 @@ You can also deploy it using Netlify.
 Video generation
 
 <video width="642" height="360" controls>
-  <source src="public/vg.mp4" type="video/mp4">
+  <source src="https://github.com/jasonwang178/SwiftSora/blob/main/public/vg.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
 <video width="642" height="360" controls>
-  <source src="public/docs/SwiftSora_VideoGeneration.mp4" type="video/mp4">
+  <source src="https://github.com/jasonwang178/SwiftSora/blob/main/public/docs/SwiftSora_VideoGeneration.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -49,14 +49,14 @@ Video generation
 Homepage
 
 <video width="642" height="360" controls>
-  <source src="public/docs/SwiftSora_HomePage.mp4" type="video/mp4">
+  <source src="https://github.com/jasonwang178/SwiftSora/blob/main/public/docs/SwiftSora_HomePage.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
 Application pages
 
 <video width="642" height="360" controls>
-  <source src="public/docs/SwiftSora_AppPages.mp4" type="video/mp4">
+  <source src="https://github.com/jasonwang178/SwiftSora/blob/main/public/docs/SwiftSora_AppPages.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
