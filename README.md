@@ -8,6 +8,34 @@ Try Demo here 👉🏻👉🏻 [SwiftSora](https://www.swiftsora.com)
 
 Get started with the leading open-source video generator, which is built with the full-stack combination of Nuxt, Vue 3, and Tailwind CSS, centered around OpenAI Sora API.
 
+[![Website Demo](https://img.shields.io/badge/Website-Demo-8A2BE2)](https://www.swiftsora.com)
+
+![Stars](https://img.shields.io/github/stars/jasonwang178/swiftsora) ![Forks](https://img.shields.io/github/forks/jasonwang178/swiftsora)
+
+
+## Project Plan
+
+- [x] Webui + Server
+- [ ] SSO - Google, Github and more - WIP
+- [ ] Internationalization - WIP
+  - [x] English
+  - [ ] 简体中文
+  - [ ] 繁體中文
+  - [ ] 日本語
+  - [ ] Español
+  - [ ] 한국어
+- [ ] Pricing & Payments
+  - [ ] Stripe payments
+- Deployment
+  - [x] Vercel
+  - [x] Netlify
+  - [ ] Docker
+- Security
+  - [x] OpenAI API Proxy
+- API Connection
+  - [ ] OpenAI's Sora API (Waiting for OpenAI Sora API Launch)
+
+
 ## Deployment
 
 ### Vercel
@@ -33,7 +61,7 @@ OPENAI_API_BASE_URL=http://localhost:3000
 
 # Use this URL as the production host for the application
 # Always utilize this proxy URL for secure access to any OpenAI API
-# e.g., https://swiftsora.com
+# e.g., https://www.swiftsora.com/
 OPENAI_API_PROXY_URL=http://localhost:3000
 ```
 
