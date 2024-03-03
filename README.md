@@ -1,5 +1,11 @@
 # SwiftSora - AI Video Generator
 
+<div align="center">
+    <img src="./public/logo.png" alt="SwiftSora">
+</div>
+
+Try Demo here 👉🏻👉🏻 [SwiftSora](https://www.swiftsora.com)
+
 Get started with the leading open-source video generator, which is built with the full-stack combination of Nuxt, Vue 3, and Tailwind CSS, centered around OpenAI Sora API.
 
 ## Deployment
@@ -33,32 +39,30 @@ You can also deploy it using Netlify.
 
 ### Demos
 
-Video generation
+Try Demo here 👉🏻👉🏻 [SwiftSora](https://www.swiftsora.com)
 
-<video width="642" height="360" controls>
-  <source src="https://github.com/jasonwang178/SwiftSora/blob/main/public/vg.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+### Video generation
 
-<video width="642" height="360" controls>
-  <source src="https://github.com/jasonwang178/SwiftSora/blob/main/public/docs/SwiftSora_VideoGeneration.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/jasonwang178/SwiftSora/assets/222802/d9752751-a906-4dcc-80d2-b30dc0ccad99
 
+https://github.com/jasonwang178/SwiftSora/assets/222802/b4c1f5b1-0348-4946-98cd-87647cf81d93
 
-Homepage
+### Landing page
 
-<video width="642" height="360" controls>
-  <source src="https://github.com/jasonwang178/SwiftSora/blob/main/public/docs/SwiftSora_HomePage.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/jasonwang178/SwiftSora/assets/222802/18eb7897-7b46-431a-9487-98b8dfa8b804
 
-Application pages
+### Application homepage
 
-<video width="642" height="360" controls>
-  <source src="https://github.com/jasonwang178/SwiftSora/blob/main/public/docs/SwiftSora_AppPages.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/jasonwang178/SwiftSora/assets/222802/f6e670a5-d281-4cf2-a8fa-3f38c17155d3
+
+### Community feed
+
+https://github.com/jasonwang178/SwiftSora/assets/222802/842d4ba0-9442-4be5-a1ff-c1283ec9160a
+
+### Other Application pages
+
+https://github.com/jasonwang178/SwiftSora/assets/222802/e8e1a120-4b42-4457-bd09-368c32cc0e18
+
 
 
 ### About SwiftSora
