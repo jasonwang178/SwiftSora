@@ -173,7 +173,7 @@
               <div class="w-full h-full">
                 <video class="rounded-lg mt-10" @click="toggleVideo" :autoplay="true" :muted="true" :loop="true"
                   :controls="false" :playsInline="true">
-                  <source src="/vg.mp4" type="video/mp4" />
+                  <source src="https://github.com/jasonwang178/SwiftSora/assets/222802/d9752751-a906-4dcc-80d2-b30dc0ccad99" type="video/mp4" />
                   <p>Your browser does not support the video tag.</p>
                 </video>
               </div>
@@ -199,7 +199,7 @@
               <div class="w-full h-full">
                 <video class="rounded-lg mt-10" @click="toggleVideo" :autoplay="true" :muted="true" :loop="true"
                   :controls="false" :playsInline="true">
-                  <source src="/vg.mp4" type="video/mp4" />
+                  <source src="https://github.com/jasonwang178/SwiftSora/assets/222802/d9752751-a906-4dcc-80d2-b30dc0ccad99" type="video/mp4" />
                   <p>Your browser does not support the video tag.</p>
                 </video>
               </div>
@@ -228,7 +228,7 @@
               <div class="w-full h-full">
                 <video class="rounded-lg mt-10" @click="toggleVideo" playsinline="true" :autoplay="true" :muted="true"
                   :loop="true" :controls="false" :playsInline="true">
-                  <source src="/vg.mp4" type="video/mp4" />
+                  <source src="https://github.com/jasonwang178/SwiftSora/assets/222802/d9752751-a906-4dcc-80d2-b30dc0ccad99" type="video/mp4" />
                   <p>Your browser does not support the video tag.</p>
                 </video>
               </div>
