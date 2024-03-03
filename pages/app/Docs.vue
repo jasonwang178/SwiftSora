@@ -111,7 +111,7 @@
           href="#resources" aria-label="Link to this section: resources">#</NuxtLink>
       </h2>
       <div class="mt-10 lg:grid lg:grid-cols-2 lg:gap-8">
-        <NuxtLink to="https://github.com/jasonwang178/SwiftSora"
+        <NuxtLink to="https://github.com/jasonwang178/SwiftSora?tab=readme-ov-file#deployment"
           class="block p-6 mb-6 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:hover:bg-gray-700 hover:bg-gray-100 dark:border-gray-700 lg:mb-0 min-h-40">
           <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Quickstart</h3>
           <p class="font-normal text-gray-700 dark:text-gray-400">Learn how to get started by configuring and deploying
@@ -124,13 +124,13 @@
             downloaded from the official SwiftSora Github repository. Don’t forget to give it a star if you appreciate the
             project.</p>
         </NuxtLink>
-        <NuxtLink to="https://github.com/jasonwang178/SwiftSora"
+        <NuxtLink to="https://github.com/jasonwang178/SwiftSora?tab=readme-ov-file#contribution"
           class="block p-6 mb-6 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:hover:bg-gray-700 hover:bg-gray-100 dark:border-gray-700 lg:mb-0 min-h-40">
           <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Contribution</h3>
           <p class="font-normal text-gray-700 dark:text-gray-400">Learn how to get started by contrubuting SwiftSora
             locally on your machine and start developing.</p>
         </NuxtLink>
-        <NuxtLink to="https://github.com/jasonwang178/SwiftSora"
+        <NuxtLink to="https://github.com/jasonwang178/SwiftSora?tab=License-1-ov-file"
           class="block p-6 mb-6 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:hover:bg-gray-700 hover:bg-gray-100 dark:border-gray-700 lg:mb-0 min-h-40">
           <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">License</h3>
           <p class="font-normal text-gray-700 dark:text-gray-400">Our open-source initiative encourages innovation,
@@ -143,7 +143,7 @@
           <p class="font-normal text-gray-700 dark:text-gray-400">Discover additional SwiftSora resources and more on our
             Official Blog.</p>
         </NuxtLink>
-        <NuxtLink to="https://flowbite.com/pro/"
+        <NuxtLink to="/"
           class="block p-6 mb-6 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:hover:bg-gray-700 hover:bg-gray-100 dark:border-gray-700 lg:mb-0 min-h-40">
           <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Contact us</h3>
           <p class="font-normal text-gray-700 dark:text-gray-400">Feel free to join the Discord community and ask us any
