@@ -143,7 +143,7 @@
           <p class="font-normal text-gray-700 dark:text-gray-400">Discover additional SwiftSora resources and more on our
             Official Blog.</p>
         </NuxtLink>
-        <NuxtLink to="/"
+        <NuxtLink to="https://discord.gg/2aTXEA26"
           class="block p-6 mb-6 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:hover:bg-gray-700 hover:bg-gray-100 dark:border-gray-700 lg:mb-0 min-h-40">
           <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Contact us</h3>
           <p class="font-normal text-gray-700 dark:text-gray-400">Feel free to join the Discord community and ask us any

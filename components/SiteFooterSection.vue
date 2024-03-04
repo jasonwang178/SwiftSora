@@ -15,19 +15,19 @@
           <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">About</h2>
           <ul class="text-gray-500 dark:text-gray-400">
             <li class="mb-4">
-              <NuxtLink to="/" class="hover:underline">Blog</NuxtLink>
+              <NuxtLink to="https://17ai8.org" class="hover:underline">Blog</NuxtLink>
             </li>
             <li class="mb-4">
-              <NuxtLink to="/" class="hover:underline">FAQ</NuxtLink>
+              <NuxtLink to="https://github.com/jasonwang178/SwiftSora/issues" class="hover:underline">FAQ</NuxtLink>
             </li>
             <li class="mb-4">
-              <NuxtLink to="/" class="hover:underline">API</NuxtLink>
+              <NuxtLink to="https://github.com/jasonwang178/SwiftSora" class="hover:underline">API</NuxtLink>
             </li>
             <li class="mb-4">
-              <NuxtLink to="/" class="hover:underline">Contact us</NuxtLink>
+              <NuxtLink to="https://discord.gg/2aTXEA26" class="hover:underline">Contact us</NuxtLink>
             </li>
             <li class="mb-4">
-              <NuxtLink to="/" class="hover:underline">Support</NuxtLink>
+              <NuxtLink to="https://discord.gg/2aTXEA26" class="hover:underline">Support</NuxtLink>
             </li>
           </ul>
         </div>
@@ -35,19 +35,19 @@
           <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Stay tuned!</h2>
           <ul class="text-gray-500 dark:text-gray-400">
             <li class="mb-4">
-              <NuxtLink to="/" class="hover:underline">Discord</NuxtLink>
+              <NuxtLink to="https://discord.gg/2aTXEA26" class="hover:underline">Discord</NuxtLink>
             </li>
-            <li class="mb-4">
+            <!-- <li class="mb-4">
               <NuxtLink to="/" class="hover:underline">Telegram</NuxtLink>
+            </li> -->
+            <li class="mb-4">
+              <NuxtLink to="https://twitter.com/swiftsora" class="hover:underline">Twitter</NuxtLink>
             </li>
             <li class="mb-4">
-              <NuxtLink to="/" class="hover:underline">Twitter</NuxtLink>
+              <NuxtLink to="https://github.com/jasonwang178/SwiftSora" class="hover:underline">Github</NuxtLink>
             </li>
             <li class="mb-4">
-              <NuxtLink to="/" class="hover:underline">Github</NuxtLink>
-            </li>
-            <li class="mb-4">
-              <NuxtLink to="/" class="hover:underline">YouTube Community</NuxtLink>
+              <NuxtLink to="https://www.youtube.com/@17ai8" class="hover:underline">YouTube Community</NuxtLink>
             </li>
           </ul>
         </div>
