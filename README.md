@@ -13,7 +13,7 @@ Get started with the leading open-source video generator, which is built with th
 ![Stars](https://img.shields.io/github/stars/jasonwang178/swiftsora) ![Forks](https://img.shields.io/github/forks/jasonwang178/swiftsora)
 
 
-## Project Plan
+## Product Plan
 
 - [x] Webui + Server
 - [ ] SSO - Google, Github and more - WIP
@@ -33,7 +33,7 @@ Get started with the leading open-source video generator, which is built with th
 - Security
   - [x] OpenAI API Proxy
 - API Connection
-  - [ ] OpenAI's Sora API (Waiting for OpenAI Sora API Launch)
+  - [ ] Integration with OpenAI's Sora API (Awaiting the Launch of OpenAI Sora API)
 
 
 ## Deployment
@@ -68,7 +68,7 @@ OPENAI_API_PROXY_URL=http://localhost:3000
 
 <img src="public/vercel.png" alt="vercel deployment guide" width="100%">
 
-[Read the Vercel Nuxt deployment guide here 👉🏻👉🏻](https://vercel.com/docs/frameworks/nuxt)
+Read the Vercel Nuxt deployment guide 👉🏻👉🏻 [here](https://vercel.com/docs/frameworks/nuxt).
 
 ### Netlify
 
@@ -79,7 +79,7 @@ You can also deploy it using Netlify.
 > [!NOTE]
 > This project is experimental. Although it has undergone optimization, caution is still advised. Use it at your own risk, and be aware of any potential consequences.
 
-[Read the Netlify Nuxt deployment guide here 👉🏻👉🏻](https://docs.netlify.com/integrations/frameworks/nuxt/)
+Read the Netlify Nuxt deployment guide 👉🏻👉🏻 [here](https://docs.netlify.com/integrations/frameworks/nuxt/).
 
 ### Other platform
 

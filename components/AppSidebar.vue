@@ -66,12 +66,12 @@
             <div class="pt-2 space-y-2">
               <NuxtLink to="/app/docs"
                 class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg transition duration-75 hover:bg-gray-100 group dark:text-gray-200 dark:hover:bg-gray-700 hover:text-primary-600 dark:hover:text-primary-400"
-                :class="route.fullPath === '/app/docs' ? 'bg-gray-100 dark:bg-gray-700 text-primary-500 dark:text-primary-400' : ''">
+                :class="route.fullPath.startsWith('/app/docs') ? 'bg-gray-100 dark:bg-gray-700 text-primary-500 dark:text-primary-400' : ''">
                 <Icon name="material-symbols:lab-profile-outline-rounded"
                   class="w-6 h-6 ml-0.5 text-gray-500 transition duration-75  dark:text-gray-400  group-hover:text-primary-500 dark:group-hover:text-primary-400"
-                  :class="route.fullPath === '/app/docs' ? 'bg-gray-100 dark:bg-gray-700 text-primary-500 dark:text-primary-400' : ''" />
+                  :class="route.fullPath.startsWith('/app/docs') ? 'bg-gray-100 dark:bg-gray-700 text-primary-500 dark:text-primary-400' : ''" />
                 <span class="ml-3"
-                  :class="route.fullPath === '/app/docs' ? 'bg-gray-100 dark:bg-gray-700 text-primary-500 dark:text-primary-400 rad-color-2' : ''"
+                  :class="route.fullPath.startsWith('/app/docs') ? 'bg-gray-100 dark:bg-gray-700 text-primary-500 dark:text-primary-400 rad-color-2' : ''"
                   sidebar-toggle-item>Docs</span>
               </NuxtLink>
               <NuxtLink to="/app/docs#resources"

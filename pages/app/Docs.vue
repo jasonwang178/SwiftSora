@@ -119,7 +119,7 @@
         </NuxtLink>
         <NuxtLink to="https://github.com/jasonwang178/SwiftSora"
           class="block p-6 mb-6 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:hover:bg-gray-700 hover:bg-gray-100 dark:border-gray-700 lg:mb-0 min-h-40">
-          <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Github repository</h3>
+          <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Like it? Give it a star!</h3>
           <p class="font-normal text-gray-700 dark:text-gray-400">The source files are also available to be cloned or
             downloaded from the official SwiftSora Github repository. Don’t forget to give it a star if you appreciate the
             project.</p>
@@ -151,6 +151,13 @@
         </NuxtLink>
       </div>
 
+      <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Encountered any bugs?</h3>
+      <p>
+        Kindly report them by <NuxtLink to="https://github.com/jasonwang178/SwiftSora/issues"
+          class="inline-flex items-center font-semibold">
+          creating an issue
+        </NuxtLink>.
+      </p>
 
 
     </div>
