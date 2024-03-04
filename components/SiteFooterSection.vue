@@ -23,7 +23,7 @@
               <NuxtLink to="https://github.com/jasonwang178/SwiftSora/issues" class="hover:underline">FAQ</NuxtLink>
             </li>
             <li class="mb-4">
-              <NuxtLink to="https://github.com/jasonwang178/SwiftSora" class="hover:underline">API</NuxtLink>
+              <NuxtLink to="/app/docs" class="hover:underline">Docs</NuxtLink>
             </li>
             <li class="mb-4">
               <NuxtLink to="https://discord.gg/2aTXEA26" class="hover:underline">Contact us</NuxtLink>

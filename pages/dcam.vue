@@ -14,7 +14,7 @@
           </div>
         </div>
         <div id="mainContent" class="max-w-3xl mx-auto mt-8">
-          <h2 class="wp-block-heading"><strong>Introduction &amp; Explanation</strong></h2>
+          <h2 class="wp-block-heading"><strong>Introduction & Explanation</strong></h2>
           <p>SwiftSora.AI and its associated subdomain app.SwiftSora.AI respect the intellectual property rights of others
             and expect its users to do the same. In accordance with the Digital Millennium Copyright Act of 1998 (DMCA),
             we will respond promptly to claims of copyright infringement committed using the SwiftSora.AI website, its
@@ -62,7 +62,7 @@
 </template>
 <script lang="ts" setup>
 useHead({
-  title: 'DMCA Policy for SwiftSora - AI Video Generator - Create Video, Images &amp; More | SwiftSora',
+  title: 'DMCA Policy for SwiftSora - AI Video Generator - Create Video, Images & More | SwiftSora',
   meta: [{ name: 'description', content: "SwiftSora is an open-source project that enables users to generate videos from prompt text or image online. The project utilizes OpenAI's Sora model to streamline video creation and includes a straightforward one-click website deployment feature." }],
   bodyAttrs: {
     class: 'bg-white dark:bg-gray-900',
