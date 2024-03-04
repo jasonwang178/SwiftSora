@@ -6,3 +6,5 @@ Disallow: /api*
 Disallow: /*/api
 Disallow: /*/api/
 Disallow: /*/api*
+Disallow: /v1/*
+Disallow: /fakeOpenAISoraAPI*
