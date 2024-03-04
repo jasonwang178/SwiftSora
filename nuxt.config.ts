@@ -26,6 +26,10 @@ export default defineNuxtConfig({
   },
   routeRules: {
     '/': { prerender: true },
+    '/legal-notice': { prerender: true },
+    '/terms-of-service': { prerender: true },
+    '/dcam': { prerender: true },
+    '/cookie-policy': { prerender: true },
     '/api/**': { cors: true },
     '/v1/**': { cors: true },
     '/fakeOpenAISoraAPI': { cors: true },

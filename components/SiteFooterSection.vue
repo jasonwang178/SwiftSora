@@ -8,7 +8,9 @@
             SwiftSora
           </NuxtLink>
           <p class="my-4 font-light text-gray-500 dark:text-gray-400">
-            SwiftSora is an open-source project that enables users to generate videos from prompt text online. The project utilizes OpenAI's Sora model to streamline video creation and includes a straightforward one-click website deployment feature.
+            SwiftSora is an open-source project that enables users to generate videos from prompt text online. The project
+            utilizes OpenAI's Sora model to streamline video creation and includes a straightforward one-click website
+            deployment feature.
           </p>
         </div>
         <div class="lg:mx-auto">
@@ -55,26 +57,28 @@
           <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">LEGAL</h2>
           <ul class="text-gray-500 dark:text-gray-400">
             <li class="mb-4">
-              <NuxtLink to="https://github.com/jasonwang178/SwiftSora?tab=License-1-ov-file#readme" class="hover:underline">License (Apache 2.0)</NuxtLink>
-            </li>
-             <li class="mb-4">
-              <NuxtLink to="/" class="hover:underline">DMCA</NuxtLink>
+              <NuxtLink to="https://github.com/jasonwang178/SwiftSora?tab=License-1-ov-file#readme"
+                class="hover:underline">License (Apache 2.0)</NuxtLink>
             </li>
             <li class="mb-4">
-              <NuxtLink to="/" class="hover:underline">Privacy Policy</NuxtLink>
+              <NuxtLink to="/dcam" class="hover:underline">DMCA</NuxtLink>
             </li>
             <li class="mb-4">
-              <NuxtLink to="/" class="hover:underline">Terms of Service</NuxtLink>
+              <NuxtLink to="/legal-notice" class="hover:underline">Privacy Policy</NuxtLink>
             </li>
             <li class="mb-4">
-              <NuxtLink to="/" class="hover:underline">Cookie Policy</NuxtLink>
+              <NuxtLink to="/terms-of-service" class="hover:underline">Terms of Service</NuxtLink>
+            </li>
+            <li class="mb-4">
+              <NuxtLink to="/cookie-policy" class="hover:underline">Cookie Policy</NuxtLink>
             </li>
 
           </ul>
         </div>
       </div>
       <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-      <span class="block text-sm text-center text-gray-500 dark:text-gray-400">©2024 <NuxtLink to="/" class="hover:underline">SwiftSora</NuxtLink>. All Rights Reserved.</span>
+      <span class="block text-sm text-center text-gray-500 dark:text-gray-400">©2024 <NuxtLink to="/"
+          class="hover:underline">SwiftSora</NuxtLink>. All Rights Reserved.</span>
     </div>
   </footer>
 </template>
