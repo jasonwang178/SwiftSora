@@ -32,7 +32,7 @@
                     <div>{{ video.author }}</div>
                   </div>
                   <div v-else>
-                    <img :class="video.author_img?.endsWith('.svg') ? 'w-5 h-5' : 'w-7 h-7'" class="rounded-full mr-2"
+                    <NuxtImg :class="video.author_img?.endsWith('.svg') ? 'w-5 h-5' : 'w-7 h-7'" class="rounded-full mr-2"
                       :src="video.author_img ? video.author_img : '/profile.jpg'" />
                     <div>{{ video.author }}</div>
                   </div>
@@ -60,7 +60,7 @@
                 <div>{{ active_video?.author }}</div>
               </div>
               <div v-else class="w-full flex justify-center">
-                <img :class="active_video?.author_img?.endsWith('.svg') ? 'w-5 h-5 mt-0.5' : 'w-6 h-6'"
+                <NuxtImg :class="active_video?.author_img?.endsWith('.svg') ? 'w-5 h-5 mt-0.5' : 'w-6 h-6'"
                   class="rounded-full mr-1" :src="active_video?.author_img ? active_video?.author_img : '/profile.jpg'" />
                 <div>{{ active_video?.author }}</div>
               </div>

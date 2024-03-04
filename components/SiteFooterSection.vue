@@ -4,7 +4,7 @@
       <div class="grid grid-cols-2 gap-8 lg:grid-cols-6">
         <div class="col-span-2">
           <NuxtLink to="/" class="flex rad-color-1 items-center mb-2 text-2xl font-semibold sm:mb-0">
-            <img src="/logo.png" class="mr-3 h-6 sm:h-9" alt="SwiftSora Logo" />
+            <NuxtImg src="/logo.png" class="mr-3 h-6 sm:h-9" alt="SwiftSora Logo" />
             SwiftSora
           </NuxtLink>
           <p class="my-4 font-light text-gray-500 dark:text-gray-400">

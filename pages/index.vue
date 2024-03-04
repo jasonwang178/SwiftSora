@@ -173,7 +173,9 @@
               <div class="w-full h-full">
                 <video class="rounded-lg mt-10" @click="toggleVideo" :autoplay="true" :muted="true" :loop="true"
                   :controls="false" :playsInline="true">
-                  <source src="https://github.com/jasonwang178/SwiftSora/assets/222802/d9752751-a906-4dcc-80d2-b30dc0ccad99" type="video/mp4" />
+                  <source
+                    src="https://github.com/jasonwang178/SwiftSora/assets/222802/d9752751-a906-4dcc-80d2-b30dc0ccad99"
+                    type="video/mp4" />
                   <p>Your browser does not support the video tag.</p>
                 </video>
               </div>
@@ -199,7 +201,9 @@
               <div class="w-full h-full">
                 <video class="rounded-lg mt-10" @click="toggleVideo" :autoplay="true" :muted="true" :loop="true"
                   :controls="false" :playsInline="true">
-                  <source src="https://github.com/jasonwang178/SwiftSora/assets/222802/d9752751-a906-4dcc-80d2-b30dc0ccad99" type="video/mp4" />
+                  <source
+                    src="https://github.com/jasonwang178/SwiftSora/assets/222802/d9752751-a906-4dcc-80d2-b30dc0ccad99"
+                    type="video/mp4" />
                   <p>Your browser does not support the video tag.</p>
                 </video>
               </div>
@@ -228,7 +232,9 @@
               <div class="w-full h-full">
                 <video class="rounded-lg mt-10" @click="toggleVideo" playsinline="true" :autoplay="true" :muted="true"
                   :loop="true" :controls="false" :playsInline="true">
-                  <source src="https://github.com/jasonwang178/SwiftSora/assets/222802/d9752751-a906-4dcc-80d2-b30dc0ccad99" type="video/mp4" />
+                  <source
+                    src="https://github.com/jasonwang178/SwiftSora/assets/222802/d9752751-a906-4dcc-80d2-b30dc0ccad99"
+                    type="video/mp4" />
                   <p>Your browser does not support the video tag.</p>
                 </video>
               </div>
@@ -275,7 +281,8 @@
               <p class="my-4">Prompt: "{{ video.prompt }}"</p>
             </blockquote>
             <figcaption class="flex items-center space-x-3">
-              <img :class="video.author_img?.endsWith('.svg') ? 'w-7 h-7' : 'w-9 h-9'" class="rounded-full"
+              <Icon v-if="video.author === 'OpenAI'" name="simple-icons:openai" class="w-5 h-5 -mr-1 dark:text-white" />
+              <NuxtImg v-else :class="video.author_img?.endsWith('.svg') ? 'w-7 h-7' : 'w-9 h-9'" class="rounded-full"
                 :src="video.author_img ? video.author_img : '/profile.jpg'" />
               <div class="space-y-0.5 font-medium dark:text-white">
                 <div>{{ video.author }}</div>
@@ -310,7 +317,8 @@
               <p class="my-4">Prompt: "{{ video.prompt }}"</p>
             </blockquote>
             <figcaption class="flex items-center space-x-3">
-              <img :class="video.author_img?.endsWith('.svg') ? 'w-7 h-7' : 'w-9 h-9'" class="rounded-full"
+              <Icon v-if="video.author === 'OpenAI'" name="simple-icons:openai" class="w-5 h-5 -mr-1 dark:text-white" />
+              <NuxtImg v-else :class="video.author_img?.endsWith('.svg') ? 'w-7 h-7' : 'w-9 h-9'" class="rounded-full"
                 :src="video.author_img ? video.author_img : '/profile.jpg'" />
               <div class="space-y-0.5 font-medium dark:text-white">
                 <div>{{ video.author }}</div>
@@ -345,7 +353,8 @@
               <p class="my-4">Prompt: "{{ video.prompt }}"</p>
             </blockquote>
             <figcaption class="flex items-center space-x-3">
-              <img :class="video.author_img?.endsWith('.svg') ? 'w-7 h-7' : 'w-9 h-9'" class="rounded-full"
+              <Icon v-if="video.author === 'OpenAI'" name="simple-icons:openai" class="w-5 h-5 -mr-1 dark:text-white" />
+              <NuxtImg v-else :class="video.author_img?.endsWith('.svg') ? 'w-7 h-7' : 'w-9 h-9'" class="rounded-full"
                 :src="video.author_img ? video.author_img : '/profile.jpg'" />
               <div class="space-y-0.5 font-medium dark:text-white">
                 <div>{{ video.author }}</div>
