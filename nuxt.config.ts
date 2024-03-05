@@ -33,7 +33,13 @@ export default defineNuxtConfig({
     lazy: true,
     langDir: 'lang',
   },
-  modules: ['@nuxtjs/tailwindcss', 'nuxt-icon', '@nuxt/image', '@nuxtjs/i18n'],
+  modules: [
+    '@nuxtjs/tailwindcss',
+    'nuxt-icon',
+    '@nuxt/image',
+    '@nuxtjs/i18n',
+    "@nuxt/content"
+  ],
   tailwindcss: {
     cssPath: '~/assets/css/main.css',
   },
@@ -54,7 +60,7 @@ export default defineNuxtConfig({
     '/': { prerender: true, redirect: '/en-US' },
     '/legal-notice': { prerender: true },
     '/terms-of-service': { prerender: true },
-    '/dcam': { prerender: true },
+    '/dmca': { prerender: true },
     '/cookie-policy': { prerender: true },
     '/api/**': { cors: true },
     '/v1/**': { cors: true },
