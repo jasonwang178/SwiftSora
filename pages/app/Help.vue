@@ -25,9 +25,9 @@ definePageMeta({
 
 useHead({
   title: 'FAQ & Hep - App - SwiftSora',
-  bodyAttrs: {
-    class: 'bg-white dark:bg-gray-900',
-  },
+  // bodyAttrs: {
+  //   class: 'bg-white dark:bg-gray-900',
+  // },
 })
 
 </script>

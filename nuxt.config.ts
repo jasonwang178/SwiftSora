@@ -7,7 +7,33 @@ export default defineNuxtConfig({
     },
   },
   pages: true,
-  modules: ['@nuxtjs/tailwindcss', 'nuxt-icon', '@nuxt/image'],
+  i18n: {
+    baseUrl: process.env.OPENAI_API_PROXY_URL || 'http://localhost:3000',
+    vueI18n: './i18n.config.ts',
+    locales: [
+      // 'en', 'en-US', 'ko-KR', 'ja-JP', 'zh-CN', 'zh-TW'
+      {
+        code: 'en-US',
+        name: 'English (US)',
+        iso: 'en-US',
+        dir: 'ltr',
+        file: 'en-US.ts', // add file name for each locale
+      },
+      {
+        code: 'zh-CN',
+        name: '中文 (简体)',
+        iso: 'zh-CN',
+        dir: 'ltr',
+        file: 'zh-CN.ts',
+      },
+    ],
+    strategy: 'prefix',
+    defaultLocale: 'en-US',
+    detectBrowserLanguage: false,
+    lazy: true,
+    langDir: 'lang',
+  },
+  modules: ['@nuxtjs/tailwindcss', 'nuxt-icon', '@nuxt/image', '@nuxtjs/i18n'],
   tailwindcss: {
     cssPath: '~/assets/css/main.css',
   },
@@ -25,7 +51,7 @@ export default defineNuxtConfig({
     OPENAI_API_PROXY_URL: process.env.OPENAI_API_PROXY_URL || 'http://localhost:3000',
   },
   routeRules: {
-    '/': { prerender: true },
+    '/': { prerender: true, redirect: '/en-US' },
     '/legal-notice': { prerender: true },
     '/terms-of-service': { prerender: true },
     '/dcam': { prerender: true },

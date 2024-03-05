@@ -138,9 +138,9 @@
 <script lang="ts" setup>
 useHead({
   title: 'Privacy Policy & Refund Policy - AI Video Generator - Create Video, Images & More | SwiftSora',
-  meta: [{ name: 'description', content: "SwiftSora is an open-source project that enables users to generate videos from prompt text or image online. The project utilizes OpenAI's Sora model to streamline video creation and includes a straightforward one-click website deployment feature." }],
-  bodyAttrs: {
-    class: 'bg-white dark:bg-gray-900',
-  },
+  // meta: [{ name: 'description', content: "SwiftSora is an open-source project that enables users to generate videos from prompt text or image online. The project utilizes OpenAI's Sora model to streamline video creation and includes a straightforward one-click website deployment feature." }],
+  // bodyAttrs: {
+  //   class: 'bg-white dark:bg-gray-900',
+  // },
 })
 </script>

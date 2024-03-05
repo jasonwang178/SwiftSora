@@ -30,24 +30,16 @@
           <Logo />
         </div>
         <div class="flex items-center">
-          <!-- <button type="button" data-dropdown-toggle="notification-dropdown" class="p-2 text-gray-500 rounded-lg hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-700">
-            <span class="sr-only">View notifications</span>
-
-            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 2a6 6 0 00-6 6v3.586l-.707.707A1 1 0 004 14h12a1 1 0 00.707-1.707L16 11.586V8a6 6 0 00-6-6zM10 18a3 3 0 01-3-3h6a3 3 0 01-3 3z"></path></svg>
-          </button> -->
-
           <LangTheme />
-
           <div class="flex items-center ml-3">
             <div>
               <button type="button"
                 class="flex text-sm bg-gray-800 rounded-full focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
                 id="user-menu-button-2" aria-expanded="false" data-dropdown-toggle="dropdown-2">
-                <span class="sr-only">Open user menu</span>
+                <span class="sr-only">{{ $t('app_nav.tip') }}</span>
                 <NuxtImg class="w-8 h-8 rounded-full" src="/profile.jpg" alt="user photo" />
               </button>
             </div>
-
             <div
               class="hidden z-50 my-4 text-base list-none bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600"
               id="dropdown-2">
@@ -58,24 +50,23 @@
               </div>
               <ul class="py-1" role="none">
                 <li>
-                  <NuxtLink to="/app/settings"
+                  <LocLink :to="'/app'"
                     class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-600 dark:hover:text-white"
                     role="menuitem">
                     <Icon name="solar:settings-bold"
                       class="w-5 h-5 mr-1 mb-0.5 text-gray-500 transition duration-75 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-white" />
-                    <span>Settings</span>
-                  </NuxtLink>
+                    <span>{{ $t('app_nav.settings') }}</span>
+                  </LocLink>
                 </li>
 
                 <li>
-                  <!-- <NuxtLink to="/" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">Sign out</NuxtLink> -->
-                  <NuxtLink to="/"
+                  <LocLink :to="'/'"
                     class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-600 dark:hover:text-white"
                     role="menuitem">
                     <Icon name="ic:baseline-logout"
                       class="w-5 h-5 mr-1 mb-0.5 text-gray-500 transition duration-75 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-white" />
-                    <span>Sign out</span>
-                  </NuxtLink>
+                    <span>{{ $t('app_nav.signout') }}</span>
+                  </LocLink>
                 </li>
               </ul>
             </div>

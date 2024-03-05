@@ -14,7 +14,7 @@
             aria-controls="mobile-menu"
             aria-expanded="false"
           >
-            <span class="sr-only">Open main menu</span>
+            <span class="sr-only">{{ $t('site_nav.tip') }}</span>
             <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
             </svg>
@@ -26,14 +26,14 @@
         <div class="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu">
           <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
             <li class="flex justify-center text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:border-0 hover:text-primary-700 dark:hover:text-primary-300 lg:p-0 dark:text-gray-400 dark:hover:bg-gray-700 hover:bg-transparent dark:hover:bg-transparent dark:border-gray-700 lg:rounded-lg">
-              <NuxtLink to="/app/community-feed" class="block lg:mt-0.5 mt-0 py-2 pr-4 pl-3">Video Gallery</NuxtLink>
+              <LocLink :to="'/app/community-feed'" class="block lg:mt-0.5 mt-0 py-2 pr-4 pl-3">{{ $t('site_nav.video_gallery') }}</LocLink>
             </li>
             <li class="flex justify-center text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:border-0 hover:text-primary-700 dark:hover:text-primary-300 lg:p-0 dark:text-gray-400 dark:hover:bg-gray-700 hover:bg-transparent dark:hover:bg-transparent dark:border-gray-700 lg:rounded-lg">
-              <NuxtLink to="/" class="block lg:mt-0.5 mt-0 py-2 pr-4 pl-3">Blog</NuxtLink>
+              <LocLink :to="'/'" class="block lg:mt-0.5 mt-0 py-2 pr-4 pl-3">{{ $t('site_nav.blog') }}</LocLink>
             </li>
             <Social />
             <li class="flex justify-center">
-              <NuxtLink to="/app/video-generation" type="button" class="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mt-2 lg:mt-0">Generate a Video</NuxtLink>
+              <LocLink :to="'/app/video-generation'" type="button" class="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mt-2 lg:mt-0">{{ $t('site_nav.gen_video') }}</LocLink>
             </li>
           </ul>
         </div>

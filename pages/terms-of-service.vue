@@ -524,7 +524,7 @@
         <h3>
           19. PRIVACY POLICY
         </h3>
-        <p>Our <NuxtLink to="/legal-notice">Privacy Policy</NuxtLink> explains how we collect and use personal
+        <p>Our <LocLink :to="'/legal-notice'" >Privacy Policy</LocLink> explains how we collect and use personal
           information.</p>
         <h3>
           20. CONTACT US
@@ -537,10 +537,10 @@
 <script lang="ts" setup>
 useHead({
   title: 'Terms of Service - AI Video Generator - Create Video, Images & amp; More | SwiftSora',
-  meta: [{ name: 'description', content: "SwiftSora is an open-source project that enables users to generate videos from prompt text or image online. The project utilizes OpenAI's Sora model to streamline video creation and includes a straightforward one-click website deployment feature." }],
-  bodyAttrs: {
-    class: 'bg-white dark:bg-gray-900',
-  },
+  // meta: [{ name: 'description', content: "SwiftSora is an open-source project that enables users to generate videos from prompt text or image online. The project utilizes OpenAI's Sora model to streamline video creation and includes a straightforward one-click website deployment feature." }],
+  // bodyAttrs: {
+  //   class: 'bg-white dark:bg-gray-900',
+  // },
 })
 </script>
 

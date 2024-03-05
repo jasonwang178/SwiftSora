@@ -19,7 +19,7 @@
               :autoplay="false" :muted="true" :loop="true" :controls="false" :playsInline="true" poster=""
               @click="showVideoDetail(video, $event)" @mouseover="toggleVideo($event)" @mouseout="toggleVideo($event)">
               <source :src="video?.url" type="video/mp4" />
-              Your browser does not support the video tag.
+              {{ $t('error.video_not_supported') }}
             </video>
             <div
               class="w-[375px] md:w-[300px] m-auto absolute inset-0 grid items-end justify-center bg-gradient-to-b from-transparent to-black/10 pointer-events-none dark:to-white/20 scale-100 ease-in duration-300 group-hover:scale-125">
@@ -86,14 +86,14 @@
                   <path
                     d="M14.066 0H7v5a2 2 0 0 1-2 2H0v11a1.97 1.97 0 0 0 1.934 2h12.132A1.97 1.97 0 0 0 16 18V2a1.97 1.97 0 0 0-1.934-2ZM9 13a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-2a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2Zm4 .382a1 1 0 0 1-1.447.894L10 13v-2l1.553-1.276a1 1 0 0 1 1.447.894v2.764Z" />
                 </svg>
-                <span class="sr-only">Loading...</span>
+                <span class="sr-only">{{ $t('common.loading') }}</span>
               </div>
             </div>
             <video ref="dialog_video" id="dialog_video" preload="none"
               class="w-full max-w-[600px] min-h-[220px] max-h-[800px] object-cover h-full scale-100 ease-in duration-300 group-hover:scale-125 rounded-md z-10 m-auto"
               :class="isVideoLoading ? 'hidden' : 'block'" :autoplay="true" :muted="true" :loop="false" :controls="true"
               :playsInline="false">
-              Your browser does not support the video tag.
+              {{ $t('error.video_not_supported') }}
             </video>
             <p class="text-sm leading-relaxed text-gray-500 dark:text-gray-400">{{ active_video?.prompt }}</p>
             <div class="text-sm leading-relaxed text-gray-500 dark:text-gray-400"></div>

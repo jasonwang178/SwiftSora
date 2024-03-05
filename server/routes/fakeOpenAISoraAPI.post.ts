@@ -106,7 +106,7 @@ export default defineEventHandler(async event => {
     return errorResp
   }
   const { video_styles } = useAppConfig()
-  if (!style || !video_styles.includes(style)) {
+  if (!style || !video_styles.hasOwnProperty(style)) {
     errorResp = {
       error: {
         message: `${style} is not valid - 'style'`,
@@ -120,7 +120,7 @@ export default defineEventHandler(async event => {
   }
 
   // @ts-ignore
-  const video: Video = await cherryPickOneVideo(prompt)
+  const video: Video = type === 'txt' ? await cherryPickOneVideo(prompt) : await cherryPickOneVideo()
 
   const resp = {
     data: {

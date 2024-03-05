@@ -1,15 +1,37 @@
 <template>
-  <NuxtLayout>
-    <NuxtPage />
-  </NuxtLayout>
+  <Html :lang="htmlAttrs.lang" :dir="htmlAttrs.dir">
+
+  <Head>
+    <Title>{{ $t('app_title') }}</Title>
+    <template v-for="link in head.link" :key="link.id">
+      <Link :id="link.id" :rel="link.rel" :href="link.href" :hreflang="link.hreflang" />
+    </template>
+  </Head>
+
+  <Body class="bg-white dark:bg-gray-900">
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
+  </Body>
+
+  </Html>
 </template>
 <script setup lang="ts">
+const { t } = useI18n()
+
+const head = useLocaleHead({
+  addDirAttribute: true,
+  identifierAttribute: "id",
+  addSeoAttributes: true,
+})
+
 useSeoMeta({
-  title: 'SwiftSora - AI Video Generator - Create Video, Images & More | SwiftSora',
-  ogTitle: 'SwiftSora - AI Video Generator - Create Video, Images & More | SwiftSora',
-  description: "Generate videos and images effortlessly with SwiftSora, an open-source project using OpenAI's powerful Sora model. One-click deployment to Vercel and more. Developed with Nuxt.js and Vue 3 in a full-stack configuration. Secure your API key with the built-in OpenAI proxy.",
-  ogDescription: "Generate videos and images effortlessly with SwiftSora, an open-source project using OpenAI's powerful Sora model. One-click deployment to Vercel and more. Developed with Nuxt.js and Vue 3 in a full-stack configuration. Secure your API key with the built-in OpenAI proxy.",
+  ogTitle: t('seo.ogTitle'),
+  description: t('seo.description'),
+  ogDescription: t('seo.ogDescription'),
   ogImage: '/logo.png',
   twitterCard: 'summary_large_image',
 })
+
+const htmlAttrs = computed(() => head.value.htmlAttrs!)
 </script>

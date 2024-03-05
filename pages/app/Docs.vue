@@ -12,13 +12,13 @@
       <h2 class="relative group">Introduction
         <span id="introduction" class="absolute -top-[140px]"></span>
         <NuxtLink class="ml-2 text-primary-700 opacity-0 transition-opacity dark:text-primary-500 group-hover:opacity-100"
-          href="#introduction" aria-label="Link to this section: Introduction">#</NuxtLink>
+          to="#introduction" aria-label="Link to this section: Introduction">#</NuxtLink>
       </h2>
 
       <h3 class="relative group">About SwiftSora
         <span id="swiftsora" class="absolute -top-[140px]"></span>
         <NuxtLink class="ml-2 text-primary-700 opacity-0 transition-opacity dark:text-primary-500 group-hover:opacity-100"
-          href="#swiftsora" aria-label="Link to this section: About SwiftSora">#</NuxtLink>
+          to="#swiftsora" aria-label="Link to this section: About SwiftSora">#</NuxtLink>
       </h3>
       <p>SwiftSora is an open-source full-stack platform, combining Nuxt, Vue 3, and Tailwind CSS for both the front-end
         and back-end. It features a user-friendly web UI and can be easily installed on platforms like Vercel and Netlify
@@ -31,7 +31,7 @@
       <h3 class="relative group">About Sora
         <span id="sora" class="absolute -top-[140px]"></span>
         <NuxtLink class="ml-2 text-primary-700 opacity-0 transition-opacity dark:text-primary-500 group-hover:opacity-100"
-          href="#sora" aria-label="Link to this section: About Sora">#</NuxtLink>
+          to="#sora" aria-label="Link to this section: About Sora">#</NuxtLink>
       </h3>
       <p>Sora is OpenAI's text-to-video model proficient at creating realistic and imaginative scenes from text
         instructions.
@@ -176,9 +176,9 @@ definePageMeta({
 
 useHead({
   title: 'Documentation - App - SwiftSora',
-  bodyAttrs: {
-    class: 'bg-white dark:bg-gray-900',
-  },
+  // bodyAttrs: {
+  //   class: 'bg-white dark:bg-gray-900',
+  // },
 })
 
 </script>

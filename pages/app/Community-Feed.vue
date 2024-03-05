@@ -3,20 +3,17 @@
 </template>
 
 <script setup lang="ts">
+const { t } = useI18n()
 
 definePageMeta({
   layout: 'application',
   layoutTransition: true,
 })
 
-const title = ref(['Community ', 'Feed'])
-const subTitle = ref('All videos on this page were generated directly by Sora without modification.')
+const title = ref([t('app.community_feed.page_title.pre'), t('app.community_feed.page_title.post')])
+const subTitle = ref(t('app.community_feed.page_title.sub'))
 
 useHead({
-  title: 'Community Feed - App - SwiftSora',
-  bodyAttrs: {
-    class: 'bg-white dark:bg-gray-900',
-  },
+  title: localizedTitle('app.community_feed.title'),
 })
-
 </script>

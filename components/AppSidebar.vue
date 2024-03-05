@@ -9,7 +9,7 @@
           <div class="flex-1 px-3 space-y-1 bg-white divide-y divide-gray-200 dark:bg-gray-800 dark:divide-gray-700">
             <ul class="pb-2 space-y-2">
               <li>
-                <NuxtLink to="/app"
+                <LocLink :to="'/app'"
                   class="flex items-center p-2 text-md font-normal text-gray-900 rounded-lg hover:bg-gray-100 group dark:text-gray-200 hover:text-primary-600 dark:hover:text-primary-400 dark:hover:bg-gray-700"
                   :class="route.fullPath === '/app' ? 'bg-gray-100 dark:bg-gray-700 text-primary-500 dark:text-primary-400' : ''">
                   <Icon name="ic:twotone-home"
@@ -17,11 +17,11 @@
                     :class="route.fullPath === '/app' ? 'bg-gray-100 dark:bg-gray-700 text-primary-500 dark:text-primary-400' : ''" />
                   <span class="ml-3"
                     :class="route.fullPath === '/app' ? 'bg-gray-100 dark:bg-gray-700 text-primary-500 dark:text-primary-400 rad-color-2' : ''"
-                    sidebar-toggle-item>Home</span>
-                </NuxtLink>
+                    sidebar-toggle-item>{{ $t('app_sidebar.home') }}</span>
+                </LocLink>
               </li>
               <li>
-                <NuxtLink to="/app/community-feed"
+                <LocLink :to="'/app/community-feed'"
                   class="text-md text-gray-900 font-normal rounded-lg hover:bg-gray-100 flex items-center p-2 group dark:text-gray-200 hover:text-primary-600 dark:hover:text-primary-400 dark:hover:bg-gray-700"
                   :class="route.fullPath === '/app/community-feed' ? 'bg-gray-100 dark:bg-gray-700 text-primary-500 dark:text-primary-400' : ''">
                   <Icon name="iconoir:community"
@@ -29,11 +29,11 @@
                     :class="route.fullPath === '/app/community-feed' ? 'bg-gray-100 dark:bg-gray-700 text-primary-500 dark:text-primary-400' : ''" />
                   <span class="flex-1 ml-3 whitespace-nowrap"
                     :class="route.fullPath === '/app/community-feed' ? 'bg-gray-100 dark:bg-gray-700 text-primary-500 dark:text-primary-400 rad-color-2' : ''"
-                    sidebar-toggle-item>Community Feed</span>
-                </NuxtLink>
+                    sidebar-toggle-item>{{ $t('app_sidebar.community_feed') }}</span>
+                </LocLink>
               </li>
               <li>
-                <NuxtLink to="/app/personal-feed"
+                <LocLink :to="'/app/personal-feed'"
                   class="text-md text-gray-900 font-normal rounded-lg hover:bg-gray-100 flex items-center p-2 group dark:text-gray-200 hover:text-primary-600 dark:hover:text-primary-400 dark:hover:bg-gray-700"
                   :class="route.fullPath === '/app/personal-feed' ? 'bg-gray-100 dark:bg-gray-700 text-primary-500 dark:text-primary-400' : ''">
                   <Icon name="octicon:apps-16"
@@ -41,16 +41,16 @@
                     :class="route.fullPath === '/app/personal-feed' ? 'bg-gray-100 dark:bg-gray-700 text-primary-500 dark:text-primary-400' : ''" />
                   <span class="flex-1 ml-3 whitespace-nowrap"
                     :class="route.fullPath === '/app/personal-feed' ? 'bg-gray-100 dark:bg-gray-700 text-primary-500 dark:text-primary-400 rad-color-2' : ''"
-                    sidebar-toggle-item>Personal Feed</span>
-                </NuxtLink>
+                    sidebar-toggle-item>{{ $t('app_sidebar.personal_feed') }}</span>
+                </LocLink>
               </li>
               <li>
                 <div class="text-xs text-gray-900 font-normal rounded-lg flex items-center p-2 group dark:text-gray-200">
-                  <span sidebar-toggle-item>User&nbsp;</span>Tools
+                  <span sidebar-toggle-item>{{ $t('app_sidebar.user_tools1') }}&nbsp;</span>{{ $t('app_sidebar.user_tools2') }}
                 </div>
               </li>
               <li>
-                <NuxtLink to="/app/video-generation"
+                <LocLink :to="'/app/video-generation'"
                   class="text-md text-gray-900 font-normal rounded-lg hover:bg-gray-100 flex items-center p-2 group dark:text-gray-200 dark:hover:bg-gray-700 hover:text-primary-600 dark:hover:text-primary-400"
                   :class="route.fullPath === '/app/video-generation' ? 'bg-gray-100 dark:bg-gray-700 text-primary-500 dark:text-primary-400' : ''">
                   <Icon name="ic:sharp-ondemand-video"
@@ -59,12 +59,12 @@
 
                   <span class="flex-1 ml-3 whitespace-nowrap"
                     :class="route.fullPath === '/app/video-generation' ? 'bg-gray-100 dark:bg-gray-700 text-primary-500 dark:text-primary-400 rad-color-2' : ''"
-                    sidebar-toggle-item>Video Generation</span>
-                </NuxtLink>
+                    sidebar-toggle-item>{{ $t('app_sidebar.video_gen') }}</span>
+                </LocLink>
               </li>
             </ul>
             <div class="pt-2 space-y-2">
-              <NuxtLink to="/app/docs"
+              <LocLink :to="'/app/docs'"
                 class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg transition duration-75 hover:bg-gray-100 group dark:text-gray-200 dark:hover:bg-gray-700 hover:text-primary-600 dark:hover:text-primary-400"
                 :class="route.fullPath.startsWith('/app/docs') ? 'bg-gray-100 dark:bg-gray-700 text-primary-500 dark:text-primary-400' : ''">
                 <Icon name="material-symbols:lab-profile-outline-rounded"
@@ -72,9 +72,9 @@
                   :class="route.fullPath.startsWith('/app/docs') ? 'bg-gray-100 dark:bg-gray-700 text-primary-500 dark:text-primary-400' : ''" />
                 <span class="ml-3"
                   :class="route.fullPath.startsWith('/app/docs') ? 'bg-gray-100 dark:bg-gray-700 text-primary-500 dark:text-primary-400 rad-color-2' : ''"
-                  sidebar-toggle-item>Docs</span>
-              </NuxtLink>
-              <NuxtLink to="/app/docs#resources"
+                  sidebar-toggle-item>{{ $t('app_sidebar.docs') }}</span>
+              </LocLink>
+              <LocLink :to="'/app/docs#resources'"
                 class="flex items-center p-2 text-md font-normal text-gray-900 rounded-lg transition duration-75 hover:bg-gray-100 group dark:text-gray-200 dark:hover:bg-gray-700 hover:text-primary-600 dark:hover:text-primary-400"
                 :class="route.fullPath === '/app/help' ? 'bg-gray-100 dark:bg-gray-700 text-primary-500 dark:text-primary-400' : ''">
                 <Icon name="bi:question-circle"
@@ -83,8 +83,8 @@
                 </Icon>
                 <span class="ml-3"
                   :class="route.fullPath === '/app/help' ? 'bg-gray-100 dark:bg-gray-700 text-primary-500 dark:text-primary-400 rad-color-2' : ''"
-                  sidebar-toggle-item>FAQ & Help</span>
-              </NuxtLink>
+                  sidebar-toggle-item>{{ $t('app_sidebar.faq') }}</span>
+              </LocLink>
             </div>
           </div>
         </div>
