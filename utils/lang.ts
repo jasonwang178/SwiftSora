@@ -67,3 +67,4 @@ export const getLocaleVideoStyle = (styleValue: string) => {
   const { t } = useI18n()
   return t(`app.video_gen.text.style.video_styles.${styleValue}`)
 }
+export const getOriPath = (path: string) => path.replace(/^\/[a-zA-Z-]+/, '')

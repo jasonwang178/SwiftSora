@@ -134,7 +134,6 @@ export default {
     },
   },
 
-  // TODO
   app: {
     index: {
       title: '主页 - 应用',

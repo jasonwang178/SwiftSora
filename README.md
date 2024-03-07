@@ -12,7 +12,7 @@ SwiftSora is an open-source AI video generator built around the OpenAI Sora mode
 
 ![Stars](https://img.shields.io/github/stars/jasonwang178/swiftsora) ![Forks](https://img.shields.io/github/forks/jasonwang178/swiftsora)
 
-[English](https://github.com/jasonwang178/SwiftSora/blob/main/README.md) | [简体中文](https://github.com/jasonwang178/SwiftSora/blob/main/README_zh_CN.md) |
+[English](https://github.com/jasonwang178/SwiftSora/blob/main/README.md) | [简体中文](https://github.com/jasonwang178/SwiftSora/blob/main/README_zh_CN.md) | [日本語](https://github.com/jasonwang178/SwiftSora/blob/main/README_ja_JP.md)
 
 ## Product Plan
 
@@ -22,7 +22,7 @@ SwiftSora is an open-source AI video generator built around the OpenAI Sora mode
   - [x] English
   - [x] 简体中文
   - [ ] 繁體中文
-  - [ ] 日本語
+  - [x] 日本語
   - [ ] Español
   - [ ] 한국어
 - [ ] Pricing & Payments

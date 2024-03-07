@@ -21,6 +21,13 @@ export default defineNuxtConfig({
         file: 'en-US.ts', // add file name for each locale
       },
       {
+        code: 'ja-JP',
+        name: '日本語',
+        iso: 'ja-JP',
+        dir: 'ltr',
+        file: 'ja-JP.ts',
+      },
+      {
         code: 'zh-CN',
         name: '中文 (简体)',
         iso: 'zh-CN',
@@ -37,7 +44,7 @@ export default defineNuxtConfig({
   content: {
     defaultLocale: 'en-US',
     documentDriven: false,
-    locales: ['en-US', 'zh-CN'],
+    locales: ['en-US', 'zh-CN', 'ja-JP'],
   },
   tailwindcss: {
     cssPath: '~/assets/css/main.css',
