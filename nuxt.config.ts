@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  modules: ['@nuxtjs/tailwindcss', 'nuxt-icon', '@nuxt/image', '@nuxtjs/i18n', '@nuxt/content'],
   devtools: {
     enabled: true,
     timeline: {
@@ -33,13 +34,11 @@ export default defineNuxtConfig({
     lazy: true,
     langDir: 'lang',
   },
-  modules: [
-    '@nuxtjs/tailwindcss',
-    'nuxt-icon',
-    '@nuxt/image',
-    '@nuxtjs/i18n',
-    "@nuxt/content"
-  ],
+  content: {
+    defaultLocale: 'en-US',
+    documentDriven: false,
+    locales: ['en-US', 'zh-CN'],
+  },
   tailwindcss: {
     cssPath: '~/assets/css/main.css',
   },

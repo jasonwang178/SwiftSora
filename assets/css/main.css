@@ -131,7 +131,7 @@
 .home-guide {
   @apply z-10 md:bg-gradient-to-b from-transparent text-gray-600 dark:text-white to-black/50 dark:to-white/90 md:text-white md:to-black/50 md:dark:to-black/50 hover:shadow-neutral-300 dark:hover:shadow-neutral-500 shadow md:hover:shadow-neutral-500 hover:shadow-2xl hover:cursor-pointer rounded-md p-4 lg:h-[210px] xl:h-[180px];
 }
-.home-guide > a > p{
+.home-guide > a > p {
   @apply md:h-14 lg:h-24 xl:h-14;
 }
 
@@ -148,7 +148,7 @@
     @apply h-[300px];
   }
   .home-meta {
-   @apply h-[240px];
+    @apply h-[240px];
   }
 }
 
@@ -158,7 +158,7 @@
     @apply h-[350px];
   }
   .home-meta {
-   @apply h-[290px];
+    @apply h-[290px];
   }
 }
 
@@ -180,8 +180,23 @@
   }
 }
 
+#mainContent > h1 {
+  @apply inline-block mb-2 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white;
+}
+#mainContent .h-link {
+  @apply mb-0.5 ml-2 text-primary-700 opacity-0 transition-opacity dark:text-primary-500 hover:opacity-100;
+}
+/* #mainContent .h3-link {
+  @apply ml-2 text-primary-700 opacity-100 transition-opacity dark:text-primary-500 hover:opacity-100;
+} */
 #mainContent > h2 {
-  @apply mt-8 mb-4 text-2xl font-semibold dark:text-white;
+  @apply relative mt-8 mb-4 text-2xl font-semibold dark:text-white;
+}
+#mainContent > h2:hover,
+#mainContent > h3:hover {
+  .h-link {
+    @apply opacity-100;
+  }
 }
 
 #mainContent > h3,

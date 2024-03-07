@@ -73,8 +73,6 @@ const props = defineProps({
 
 // const error = ref({ statusCode: 500})
 
-/* variables */
-const route = useRoute()
 const localePath = useLocalePath()
 const handleError = () => clearError({ redirect: localePath('/') })
 

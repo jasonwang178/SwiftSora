@@ -6,12 +6,13 @@
 
 Try Demo here 👉🏻👉🏻 [SwiftSora](https://www.swiftsora.com)
 
-Get started with the leading open-source video generator, which is built with the full-stack combination of Nuxt, Vue 3, and Tailwind CSS, centered around OpenAI Sora API.
+SwiftSora is an open-source AI video generator built around the OpenAI Sora model. Developed using full-stack technologies, it integrates Nuxt 3, Vue 3, and Tailwind CSS for both frontend and backend functionalities. Featuring a user-friendly web UI, SwiftSora can be easily deployed on platforms like Vercel and Netlify within minutes.
 
 [![Website Demo](https://img.shields.io/badge/Website-Demo-8A2BE2)](https://www.swiftsora.com)
 
 ![Stars](https://img.shields.io/github/stars/jasonwang178/swiftsora) ![Forks](https://img.shields.io/github/forks/jasonwang178/swiftsora)
 
+[English](https://github.com/jasonwang178/SwiftSora/blob/main/README.md) | [简体中文](https://github.com/jasonwang178/SwiftSora/blob/main/README_zh_CN.md) |
 
 ## Product Plan
 
@@ -19,7 +20,7 @@ Get started with the leading open-source video generator, which is built with th
 - [ ] SSO - Google, Github and more - WIP
 - [ ] Internationalization - WIP
   - [x] English
-  - [ ] 简体中文
+  - [x] 简体中文
   - [ ] 繁體中文
   - [ ] 日本語
   - [ ] Español
@@ -38,6 +39,9 @@ Get started with the leading open-source video generator, which is built with th
 
 ## Deployment
 
+> [!NOTE]
+> This project is experimental. Although it has undergone optimization, caution is still advised. Use it at your own risk, and be aware of any potential consequences.
+
 ### Vercel
 
 The preferred deployment option is Vercel, although you have the flexibility to deploy it on any platform of your choice.
@@ -49,13 +53,13 @@ The preferred deployment option is Vercel, although you have the flexibility to 
 * Add the following environment variables:
 
 ```shell
-# Your actual OPENAI_API_KEY or a proxy OpenAI API base URL
+# Your actual OPENAI_API_KEY
 OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxx
 
 # Specify the Sora model name, check at https://platform.openai.com/docs/api-reference
 OPENAI_API_MODEL=sora-1.0
 
-# Set the actual OpenAI base URL
+# Set the actual OpenAI base URL or a proxy OpenAI API base URL
 # e.g., https://api.openai.com, https://api.myopenaiproxy.com
 OPENAI_API_BASE_URL=http://localhost:3000
 
@@ -75,9 +79,6 @@ Read the Vercel Nuxt deployment guide 👉🏻👉🏻 [here](https://vercel.com
 You can also deploy it using Netlify.
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/jasonwang178/SwiftSora)
-
-> [!NOTE]
-> This project is experimental. Although it has undergone optimization, caution is still advised. Use it at your own risk, and be aware of any potential consequences.
 
 Read the Netlify Nuxt deployment guide 👉🏻👉🏻 [here](https://docs.netlify.com/integrations/frameworks/nuxt/).
 
@@ -110,6 +111,26 @@ Check out the [Nuxt.js deployment documentation](https://nuxt.com/docs/getting-s
 
 ## Introduction
 
+### About SwiftSora
+
+SwiftSora is an open-source full-stack platform, combining Nuxt, Vue 3, and Tailwind CSS for both the front-end and back-end. It features a user-friendly web UI and can be easily installed on platforms like Vercel and Netlify within minutes.
+
+Empowering users to transform text into videos using OpenAI's Sora model, this platform simplifies the video creation process, ensuring smooth deployment and usage.
+
+SwiftSora enables effortless video creation by simply inputting text, making it a versatile tool for professionals and enthusiasts alike in video production and AI technology.
+
+### About Sora
+
+On February 16, 2024, OpenAI unveiled its groundbreaking generative artificial intelligence model, "Sora." It is reported that Sora can generate a video lasting up to 60 seconds directly from textual prompts, featuring highly detailed backgrounds, intricate multi-angle shots, and emotionally rich characters.
+
+This signifies OpenAI's expansion of its advanced AI technology into the realm of videos, following text and images. OpenAI also emphasizes that Sora serves as the foundation for a model capable of understanding and **simulating the real world**, marking a significant milestone towards achieving AGI (Artificial General Intelligence).
+
+The emergence of OpenAI's video generation model was anticipated within the industry, with some noting that it arrived "faster than imagined." Others expressed excitement, stating that "we are truly witnessing the advent of a new industrial revolution."
+
+As of today, **Sora has not been publicly released.** However, it is currently accessible to Red Team members for evaluating potential risks and critical areas. The OpenAI Sora team has expanded access to visual artists, designers, and filmmakers to gather feedback for improving the model to meet the needs of creative professionals. OpenAI is sharing early research progress, collaborating with individuals outside the organization, and seeking input to provide insights into upcoming AI features for the public.
+
+[Read more ->](https://openai.com/sora)
+
 ### Demos
 
 Try Demo here 👉🏻👉🏻 [SwiftSora](https://www.swiftsora.com)
@@ -135,32 +156,6 @@ https://github.com/jasonwang178/SwiftSora/assets/222802/842d4ba0-9442-4be5-a1ff-
 ### Other Application pages
 
 https://github.com/jasonwang178/SwiftSora/assets/222802/e8e1a120-4b42-4457-bd09-368c32cc0e18
-
-
-
-### About SwiftSora
-
-SwiftSora is an open-source full-stack platform, combining Nuxt, Vue 3, and Tailwind CSS for both the front-end and back-end. It features a user-friendly web UI and can be easily installed on platforms like Vercel and Netlify within minutes.
-
-Empowering users to transform text into videos using OpenAI's Sora model, this platform simplifies the video creation process, ensuring smooth deployment and usage.
-
-SwiftSora enables effortless video creation by simply inputting text, making it a versatile tool for professionals and enthusiasts alike in video production and AI technology.
-
-### About Sora
-
-Sora is OpenAI's text-to-video model proficient at creating realistic and imaginative scenes from text instructions. It can generate videos up to a minute long while maintaining visual quality and adherence to the user’s prompt.
-
-As of today, Sora is NOT yet AVAILABLE for public use. Instead, it is accessible to red teamers for assessing critical areas for potential harms or risks. The OpenAI Sora team is also extending access to visual artists, designers, and filmmakers to gather feedback on enhancing the model for creative professionals. OpenAI is sharing early research progress to collaborate with and gather feedback from individuals outside the organization, providing the public with insights into upcoming AI capabilities.
-
-Sora is able to generate complex scenes with multiple characters, specific types of motion, and accurate details of the subject and background. The model understands not only what the user has asked for in the prompt, but also how those things exist in the physical world.
-
-The model has a deep understanding of language, enabling it to accurately interpret prompts and generate compelling characters that express vibrant emotions. Sora can also create multiple shots within a single generated video that accurately persist characters and visual style.
-
-The current model has weaknesses. It may struggle with accurately simulating the physics of a complex scene, and may not understand specific instances of cause and effect. For example, a person might take a bite out of a cookie, but afterward, the cookie may not have a bite mark.
-
-The model may also confuse spatial details of a prompt, for example, mixing up left and right, and may struggle with precise descriptions of events that take place over time, like following a specific camera trajectory.
-
-[Read more ->](https://openai.com/sora)
 
 
 ## Contribution

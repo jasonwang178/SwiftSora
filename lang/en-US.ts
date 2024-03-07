@@ -30,7 +30,7 @@ export default {
     validation: {
       video_gen: {
         error1: "You didn't provide a Prompt.",
-        error2: "You didn't upload an Image."
+        error2: "You didn't upload an Image.",
       },
     },
   },
@@ -247,6 +247,35 @@ export default {
       },
       btn_reset: 'Reset',
       btn_gen: 'Generate',
+    },
+    docs: {
+      title: 'Documentation - App',
+      resources: {
+        quickstart: {
+          title: 'Quickstart',
+          desc: 'Learn how to get started by configuring and deploying SwiftSora.',
+        },
+        github: {
+          title: 'Like it? Give it a star!',
+          desc: 'The source code files are also available to be cloned or downloaded from the official SwiftSora Github repository. Don’t forget to give it a star if you appreciate the project.',
+        },
+        contribution: {
+          title: 'Contribution',
+          desc: 'Learn how to get started by contrubuting SwiftSora locally on your machine and start developing.',
+        },
+        license: {
+          title: 'License',
+          desc: 'Our open-source initiative encourages innovation, sharing, and community growth. Dive into a world where your creativity knows no bounds.',
+        },
+        blog: {
+          title: 'Blog',
+          desc: 'Discover additional SwiftSora resources and more on our Official Blog.',
+        },
+        contact: {
+          title: 'Contact us',
+          desc: 'Feel free to join the Discord community and ask us any questions about SwiftSora.',
+        },
+      },
     },
   },
 }

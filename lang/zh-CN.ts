@@ -244,5 +244,34 @@ export default {
       btn_reset: '重置',
       btn_gen: '立刻生成',
     },
+    docs: {
+      title: '文档 - 应用',
+      resources: {
+        quickstart: {
+          title: '开始使用',
+          desc: '了解如何快速配置和部署 SwiftSora。',
+        },
+        github: {
+          title: '喜欢吗？给个星星吧！',
+          desc: '源代码可从官方 SwiftSora GitHub 存储库克隆或下载。如果你喜欢这个项目，请别忘了给它点个星。',
+        },
+        contribution: {
+          title: '参与到项目',
+          desc: '学习如何在本地机器上贡献 SwiftSora 并开始开发。',
+        },
+        license: {
+          title: '许可证',
+          desc: '我们的开源倡议鼓励创新、共享和社区发展。进入一个创意无限的世界吧。',
+        },
+        blog: {
+          title: '博客',
+          desc: '在我们的官方博客上发现更多有关 SwiftSora 的资源以及AI的相关知识。',
+        },
+        contact: {
+          title: '联系我们',
+          desc: '随时加入 Discord 社区，并向我们咨询有关 SwiftSora 的任何问题。',
+        },
+      },
+    },
   },
 }
