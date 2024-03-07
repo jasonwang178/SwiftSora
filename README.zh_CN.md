@@ -12,7 +12,7 @@ SwiftSora是围绕OpenAI Sora模型打造的一款开源AI视频生成器，采�
 
 ![Stars](https://img.shields.io/github/stars/jasonwang178/swiftsora) ![Forks](https://img.shields.io/github/forks/jasonwang178/swiftsora)
 
-[English](https://github.com/jasonwang178/SwiftSora/blob/main/README.md) | [简体中文](https://github.com/jasonwang178/SwiftSora/blob/main/README_zh_CN.md) | [日本語](https://github.com/jasonwang178/SwiftSora/blob/main/README_ja_JP.md)
+[English](https://github.com/jasonwang178/SwiftSora/blob/main/README.md) | [简体中文](https://github.com/jasonwang178/SwiftSora/blob/main/README.zh_CN.md) | [日本語](https://github.com/jasonwang178/SwiftSora/blob/main/README.ja_JP.md)
 
 ## 产品计划
 
