@@ -6,6 +6,7 @@ export default {
       "Generate videos and images effortlessly with SwiftSora, an open-source project using OpenAI's powerful Sora model. One-click deployment to Vercel and more. Developed with Nuxt.js， Vue 3 and Tailwind CSS in a full-stack configuration. Secure your API key with the built-in OpenAI proxy.",
     ogDescription:
       "Generate videos and images effortlessly with SwiftSora, an open-source project using OpenAI's powerful Sora model. One-click deployment to Vercel and more. Developed with Nuxt.js， Vue 3 and Tailwind CSS in a full-stack configuration. Secure your API key with the built-in OpenAI proxy.",
+    keywords: 'AI,OpenAI,Sora,Video Generation,SwiftSora',
   },
   error: {
     e404: {

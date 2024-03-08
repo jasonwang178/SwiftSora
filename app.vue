@@ -33,6 +33,7 @@ useSeoMeta({
   ogDescription: t('seo.ogDescription'),
   ogImage: '/logo.webp',
   ogSiteName: 'SwiftSora',
+  keywords: t('seo.keywords'),
   twitterCard: 'summary_large_image',
 })
 

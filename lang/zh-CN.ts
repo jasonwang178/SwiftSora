@@ -4,6 +4,7 @@ export default {
     ogTitle: 'SwiftSora - AI视频生成器 - 通过文字生成视频和图片 | SwiftSora',
     description: '使用SwiftSora轻松生成视频和图片，这是一个使用OpenAI强大Sora模型的开源项目。一键部署到Vercel等平台。采用Nuxt.js，Vue 3和Tailwind CSS全栈开发。通过内置的OpenAI代理保护您的API密钥的安全。',
     ogDescription: '使用SwiftSora轻松生成视频和图片，这是一个使用OpenAI强大Sora模型的开源项目。一键部署到Vercel等平台。采用Nuxt.js，Vue 3和Tailwind CSS全栈开发。通过内置的OpenAI代理保护您的API密钥的安全。',
+    keywords: 'AI,AIGC,OpenAI,Sora,视频生成器,SwiftSora',
   },
   error: {
     e404: {

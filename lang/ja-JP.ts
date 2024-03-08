@@ -6,6 +6,7 @@ export default {
       'SwiftSoraを使用して簡単に動画や画像を生成しましょう。これはOpenAIの強力なSoraモデルを使用したオープンソースプロジェクトです。Vercelなどのプラットフォームにワンクリックで展開可能。Nuxt.js、Vue 3、およびTailwind CSSを使用したフルスタック開発。組み込みのOpenAIプロキシにより、APIキーの安全性が保護されています。',
     ogDescription:
       'SwiftSoraを使用して簡単に動画や画像を生成しましょう。これはOpenAIの強力なSoraモデルを使用したオープンソースプロジェクトです。Vercelなどのプラットフォームにワンクリックで展開可能。Nuxt.js、Vue 3、およびTailwind CSSを使用したフルスタック開発。組み込みのOpenAIプロキシにより、APIキーの安全性が保護されています。',
+    keywords: 'AI,AIGC,OpenAI,Sora,ビデオジェネレーター,SwiftSora',
   },
   error: {
     e404: {
