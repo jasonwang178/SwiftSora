@@ -37,7 +37,7 @@
                 class="flex text-sm bg-gray-800 rounded-full focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
                 id="user-menu-button-2" aria-expanded="false" data-dropdown-toggle="dropdown-2">
                 <span class="sr-only">{{ $t('app_nav.tip') }}</span>
-                <NuxtImg class="w-8 h-8 rounded-full" src="/profile.jpg" alt="user photo" />
+                <NuxtImg class="w-8 h-8 rounded-full" src="/profile.webp" alt="user photo" />
               </button>
             </div>
             <div

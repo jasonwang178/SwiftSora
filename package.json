@@ -1,6 +1,6 @@
 {
-  "name": "nuxt-app",
-  "private": true,
+  "name": "swiftsora",
+  "private": false,
   "type": "module",
   "contributors": [
     "Jason Williams (https://twitter.com/swiftsora)"
@@ -27,7 +27,6 @@
     "@nuxt/eslint-config": "^0.2.0",
     "@nuxt/image": "^1.3.0",
     "@nuxt/kit": "^3.10.3",
-    "@nuxt/postcss8": "^1.1.3",
     "@nuxtjs/i18n": "^8.1.1",
     "@nuxtjs/tailwindcss": "^6.11.4",
     "eslint": "^8.57.0",

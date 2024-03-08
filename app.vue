@@ -27,9 +27,12 @@ const head = useLocaleHead({
 
 useSeoMeta({
   ogTitle: t('seo.ogTitle'),
+  ogType: 'website',
+  ogUrl: 'https://www.swiftsora.com',
   description: t('seo.description'),
   ogDescription: t('seo.ogDescription'),
-  ogImage: '/logo.png',
+  ogImage: '/logo.webp',
+  ogSiteName: 'SwiftSora',
   twitterCard: 'summary_large_image',
 })
 

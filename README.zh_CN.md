@@ -1,7 +1,7 @@
 # SwiftSora - AI视频生成器
 
 <div align="center">
-    <img src="./public/logo.png" alt="SwiftSora">
+    <img src="./public/logo.webp" alt="SwiftSora">
 </div>
 
 在线Demo在这里 👉🏻👉🏻 [SwiftSora](https://www.swiftsora.com)

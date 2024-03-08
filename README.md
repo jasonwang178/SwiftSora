@@ -1,7 +1,7 @@
 # SwiftSora - AI Video Generator
 
 <div align="center">
-    <img src="./public/logo.png" alt="SwiftSora">
+    <img src="./public/logo.webp" alt="SwiftSora">
 </div>
 
 Try Demo here 👉🏻👉🏻 [SwiftSora](https://www.swiftsora.com)

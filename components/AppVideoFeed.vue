@@ -33,7 +33,7 @@
                   </div>
                   <div v-else>
                     <NuxtImg :class="video.author_img?.endsWith('.svg') ? 'w-5 h-5' : 'w-7 h-7'" class="rounded-full mr-2"
-                      :src="video.author_img ? video.author_img : '/profile.jpg'" />
+                      :src="video.author_img ? video.author_img : '/profile.webp'" />
                     <div>{{ video.author }}</div>
                   </div>
                   <div v-if="video.prompt.length <= 200" class="mb-2 w-full">{{ video.prompt }}</div>
@@ -61,7 +61,7 @@
               </div>
               <div v-else class="w-full flex justify-center">
                 <NuxtImg :class="active_video?.author_img?.endsWith('.svg') ? 'w-5 h-5 mt-0.5' : 'w-6 h-6'"
-                  class="rounded-full mr-1" :src="active_video?.author_img ? active_video?.author_img : '/profile.jpg'" />
+                  class="rounded-full mr-1" :src="active_video?.author_img ? active_video?.author_img : '/profile.webp'" />
                 <div>{{ active_video?.author }}</div>
               </div>
             </div>

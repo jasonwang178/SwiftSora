@@ -107,7 +107,7 @@
       <video
         class="top-14 w-full bg object-cover opacity-40 rounded-lg"
         :autoplay="true" :muted="true" :loop="true" preload="true" :controls="false" :playsInline="true"
-        @click="toggleVideo" poster="/bg.jpg">
+        @click="toggleVideo" poster="/bg.webp">
         <source src="https://cdn.openai.com/sora/videos/monster-with-melting-candle.mp4" type="video/mp4" />
         {{ $t('error.video_not_supported') }}
       </video>
@@ -261,7 +261,7 @@
             <figcaption class="flex items-center space-x-3">
               <Icon v-if="video.author === 'OpenAI'" name="simple-icons:openai" class="w-5 h-5 -mr-1 dark:text-white" />
               <NuxtImg v-else :class="video.author_img?.endsWith('.svg') ? 'w-7 h-7' : 'w-9 h-9'" class="rounded-full"
-                :src="video.author_img ? video.author_img : '/profile.jpg'" />
+                :src="video.author_img ? video.author_img : '/profile.webp'" />
               <div class="space-y-0.5 font-medium dark:text-white">
                 <div>{{ video.author }}</div>
               </div>
@@ -297,7 +297,7 @@
             <figcaption class="flex items-center space-x-3">
               <Icon v-if="video.author === 'OpenAI'" name="simple-icons:openai" class="w-5 h-5 -mr-1 dark:text-white" />
               <NuxtImg v-else :class="video.author_img?.endsWith('.svg') ? 'w-7 h-7' : 'w-9 h-9'" class="rounded-full"
-                :src="video.author_img ? video.author_img : '/profile.jpg'" />
+                :src="video.author_img ? video.author_img : '/profile.webp'" />
               <div class="space-y-0.5 font-medium dark:text-white">
                 <div>{{ video.author }}</div>
               </div>
@@ -333,7 +333,7 @@
             <figcaption class="flex items-center space-x-3">
               <Icon v-if="video.author === 'OpenAI'" name="simple-icons:openai" class="w-5 h-5 -mr-1 dark:text-white" />
               <NuxtImg v-else :class="video.author_img?.endsWith('.svg') ? 'w-7 h-7' : 'w-9 h-9'" class="rounded-full"
-                :src="video.author_img ? video.author_img : '/profile.jpg'" />
+                :src="video.author_img ? video.author_img : '/profile.webp'" />
               <div class="space-y-0.5 font-medium dark:text-white">
                 <div>{{ video.author }}</div>
               </div>

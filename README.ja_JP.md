@@ -1,7 +1,7 @@
 # SwiftSora - AIビデオジェネレーター
 
 <div align="center">
-    <img src="./public/logo.png" alt="SwiftSora">
+    <img src="./public/logo.webp" alt="SwiftSora">
 </div>
 
 オンラインデモはこちら 👉🏻👉🏻 [SwiftSora](https://www.swiftsora.com)
