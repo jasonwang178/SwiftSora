@@ -23,8 +23,8 @@ SwiftSora is an open-source AI video generator built around the OpenAI Sora mode
   - [x] 简体中文
   - [ ] 繁體中文
   - [x] 日本語
-  - [ ] Español
-  - [ ] 한국어
+  - [x] Español
+  - [x] 한국어
 - [ ] Pricing & Payments
   - [ ] Stripe payments
 - Deployment

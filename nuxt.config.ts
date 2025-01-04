@@ -1,4 +1,3 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss', 'nuxt-icon', '@nuxt/image', '@nuxtjs/i18n', '@nuxt/content'],
   devtools: {
@@ -12,13 +11,12 @@ export default defineNuxtConfig({
     baseUrl: process.env.OPENAI_API_PROXY_URL || 'http://localhost:3000',
     vueI18n: './i18n.config.ts',
     locales: [
-      // 'en', 'en-US', 'ko-KR', 'ja-JP', 'zh-CN', 'zh-TW'
       {
         code: 'en-US',
         name: 'English (US)',
         iso: 'en-US',
         dir: 'ltr',
-        file: 'en-US.ts', // add file name for each locale
+        file: 'en-US.ts',
       },
       {
         code: 'ja-JP',
@@ -34,6 +32,20 @@ export default defineNuxtConfig({
         dir: 'ltr',
         file: 'zh-CN.ts',
       },
+      {
+        code: 'es-ES',
+        name: 'Español',
+        iso: 'es-ES',
+        dir: 'ltr',
+        file: 'es-ES.ts',
+      },
+      {
+        code: 'ko-KR',
+        name: '한국어',
+        iso: 'ko-KR',
+        dir: 'ltr',
+        file: 'ko-KR.ts',
+      },
     ],
     strategy: 'prefix',
     defaultLocale: 'en-US',
@@ -44,7 +56,7 @@ export default defineNuxtConfig({
   content: {
     defaultLocale: 'en-US',
     documentDriven: false,
-    locales: ['en-US', 'zh-CN', 'ja-JP'],
+    locales: ['en-US', 'zh-CN', 'ja-JP', 'es-ES', 'ko-KR'],
   },
   tailwindcss: {
     cssPath: '~/assets/css/main.css',
